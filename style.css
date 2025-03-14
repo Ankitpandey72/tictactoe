@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-self: center;
+}
+
+.container{
+    margin: 2%;
+    padding: 2%;
+    justify-self: center;
+    justify-items: center;
+    border: 0.1rcap solid;
+    border-radius: 10%;
+    width: 185px;
+    box-shadow: 0 0 10px rgb(50, 22, 22);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(240, 240, 128);
+}
+
+.btt{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10%;
+    font-size: 2rem;
+    box-shadow: 0 0 10px rgb(50, 22, 22);
+    margin: 3%;
+    cursor: pointer;
+    color: brown;
+    background-color: rgb(210, 210, 79);
+}
+
+/* cursor:hover{
+    background-color: rgb(27, 94, 94);
+    
+} */
+
+.display{
+    margin: 5%;
+    padding: 5%;
+    justify-self: center;
+    justify-items: center;
+    display: none;
+}
+
+ .newgame,.reset{
+    margin: 5%;
+    padding: 2%;
+    font-size: 100%;
+    border-radius: 10%;
+}
+
+.full{
+    display: block;
+}
